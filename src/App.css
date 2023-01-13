@@ -1,38 +1,89 @@
-.App {
-  text-align: center;
+@media screen and (max-width :1350px) {
+    th {
+        padding: 2px 2px !important;
+        background-color: #ffffff;
+    }
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@media screen and (max-width :1200px) {
+    th {
+        padding: 0px !important;
+    }
+
+    td {
+        height: 0 !important;
+        min-height: 0px !important;
+        width: 0 !important;
+    }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+table {
+    background-color: rgb(253, 253, 253);
+    width: 100%;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+    color: rgb(54, 53, 53);
+    overflow: hidden;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+tr,
+td,
+table,
+th {
+    border: 1px solid gray;
+    text-align: center;
+    border-radius: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+td {
+    height: 40px;
+    min-height: 40px;
+    width: 200px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+th {
+    padding: 30px 20px;
+    position: relative;
+    font-size: 18px;
+    width: auto;
+}
+
+.sort-selection {
+    cursor: pointer;
+    width: 100%;
+    background-color: #fffbfb;
+    text-align: center;
+}
+
+#sortable-row {
+    cursor: pointer;
+}
+
+#status-green {
+    background-color: #BDE7BD;
+    cursor: pointer;
+}
+
+#status-red {
+    background-color: #FFB6B3;
+    cursor: pointer;
+}
+
+h1 {
+    background-color: #00a5ea;
+    height: 50px;
+    text-align: center;
+    border-radius: 15px;
+    color: white;
+    font-size: 40px;
+}
+
+.sort-selection div:hover {
+    background-color: rgb(192, 238, 238);
+    text-decoration: underline;
 }
