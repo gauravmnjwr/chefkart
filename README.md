@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-The project is deployed on - https://app.netlify.com/sites/delicate-truffle-fc3a58/overview \
+The project is deployed on - https://delicate-truffle-fc3a58.netlify.app/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). \
 
